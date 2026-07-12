@@ -1,0 +1,11 @@
+{
+  "name": "downstairs-pickleball-club",
+  "version": "1.0.0",
+  "description": "樓下匹克球俱樂部 私人會員預約系統（零外部套件，Node 22+）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "dependencies": {}
+}
