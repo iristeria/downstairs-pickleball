@@ -53,11 +53,11 @@ ${body}
 function landing({ error = '', openLogin = false, flash = '' }) {
   return layout({ title: '私人會員制', flash }, `
 <div class="hero">
-  <div class="logo-lg"><img src="/logo.jpg" alt="樓下匹克球俱樂部" onerror="this.parentElement.style.display='none'"></div>
-  <h1>樓下匹克球俱樂部</h1>
-  <div class="en">Downstairs Pickleball Club</div>
+  <div class="logo-lg"><img src="/logo.jpg" alt="樓下私人俱樂部" onerror="this.parentElement.style.display='none'"></div>
+  <h1>樓下私人俱樂部</h1>
+  <div class="en">Downstairs Private Club</div>
   <div class="chip">私人會員制 · Members Only</div>
-  <label for="loginToggle" class="btn cta">預約場次 BOOK A SESSION</label>
+  <label for="loginToggle" class="btn cta">進入俱樂部 Enter Private Club</label>
 </div>
 
 <input type="checkbox" id="loginToggle" class="mtoggle" ${(error || openLogin) ? 'checked' : ''}>
