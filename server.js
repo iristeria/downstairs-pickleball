@@ -556,4 +556,4 @@ setInterval(() => {
   try { db.prepare('DELETE FROM sessions WHERE expires < ?').run(Date.now()); } catch {}
 }, 3600e3).unref();
 
-server.listen(PORT, () => console.log(`樓下匹克球俱樂部 運行中 → http://localhost:${PORT}`));
+server.listen(PORT, '0.0.0.0', () => console.log(`樓下匹克球俱樂部 運行中 → http://localhost:${PORT}`));
